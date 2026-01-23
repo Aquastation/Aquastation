@@ -12,9 +12,7 @@
 -->
 
 <p align="center">
- <a href="https://xkcd.com/371/"><img src=".github/assets/compiles-sometimes.svg" alt="Compiles sometimes"></a>
  <a href="https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a/"><img src=".github/assets/made-in-byond.gif" alt="Made in BYOND"></a>
- <a href="https://xkcd.com/1811/"><img src=".github/assets/made-with-crayons.svg" alt="Made with crayons"></a>
 </p>
 
 <p align="center">
