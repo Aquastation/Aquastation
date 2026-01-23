@@ -60,6 +60,10 @@ Space Station 13 is a paranoia-laden, round-based roleplaying game set against t
 
 This reference site by the creators of BYOND details information on the DM language, the syntax used, functionality of native procs, and a lot more. This is always useful to have on hand when contributing.
 
+- ### [DM By Example](https://spacestation13.github.io/DMByExample/)
+
+A (work in progress) guide on the DM language in the style of Rust By Example, for those who prefer a more hand-on approach on learning how the language works.
+
 - ### [Paradise Station's Autodocumentation Guide](https://devdocs.paradisestation.org/references/autodoc/)
 
 This guide shows you how to leave code comments that comply with "autodocumentation", a system designed to make everyone's lives easier when reading or reviewing code!
@@ -71,10 +75,6 @@ All contributors are expected to read our Code of Conduct before they take part 
 - ### [Paradise Station Community Maintained Guide to Contributing](https://devdocs.paradisestation.org/contributing/getting_started/)
 
 This community maintained guide covers how to set yourself up for success when attempting to contribute to Paradise Station's codebase and, by extension, this one.
-
-> [!IMPORTANT]
-> Aquastation does not provide precompiled binaries, requiring you to build from source to host a local server.<br>
-> Building Aquastation is quick and simple, all you need to install is [BYOND](https://www.byond.com/download/).<br>
 
 - ### [TGUI Tutorial](tgui/docs/tutorial-and-examples.md)
 
@@ -93,13 +93,13 @@ Mapping for Aquastation can be daunting to new contributors. Here's a comprehens
 <details>
 <summary><a href="#"><img src="https://img.shields.io/badge/licence-AGPL_3-red?style=for-the-badge" alt="AGPLv3 license"></a></summary>
 
->All code after and including commit [1af3ddef2af85937251e24384c2173c4b6c3222b on 2015/01/05 22:04 GMT](https://github.com/ParadiseSS13/Paradise/commit/1af3ddef2af85937251e24384c2173c4b6c3222b) is licensed under the [GNU Affero General Public License version 3](https://www.gnu.org/licenses/agpl-3.0.en.html) unless otherwise specified within the folder or file.
+>All code after and including commit [1af3ddef2af85937251e24384c2173c4b6c3222b on 2015/01/05 22:04 GMT](https://github.com/Aquastation/Aquastation/commit/1af3ddef2af85937251e24384c2173c4b6c3222b) is licensed under the [GNU Affero General Public License version 3](https://www.gnu.org/licenses/agpl-3.0.en.html) unless otherwise specified within the folder or file.
 </details>
 
 <details>
 <summary><a href="#"><img src="https://img.shields.io/badge/licence-GPL_3-orange?style=for-the-badge" alt="GPLv3 license"></a></summary>
 
->All code prior to commit [1af3ddef2af85937251e24384c2173c4b6c3222b on 2015/01/05 22:04 GMT](https://github.com/ParadiseSS13/Paradise/commit/1af3ddef2af85937251e24384c2173c4b6c3222b) is licensed under the [GPL General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+>All code prior to commit [1af3ddef2af85937251e24384c2173c4b6c3222b on 2015/01/05 22:04 GMT](https://github.com/Aquastation/Aquastation/commit/1af3ddef2af85937251e24384c2173c4b6c3222b) is licensed under the [GPL General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 </details>
 
 <details>
