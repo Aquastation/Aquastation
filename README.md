@@ -1,32 +1,31 @@
-<a href="#"><img src=".github/assets/paradise.png" alt="Paradise Station"></a>
+<h1 align="center">AQUASTATION</h1>
+<div align="center">
 
-## <p align="center">Welcome to the main repository for the Paradise Station version of [Space Station 13](https://spacestation13.com/).</p>
-
+![biware](https://pride-badges.pony.workers.dev/static/v1?label=biware&labelColor=%23555&stripeWidth=6&stripeColors=D60270%2CD60270%2C9B4F96%2C0038A8%2C0038A8)
+<!-- TODO: Uncomment below buttons once properly set up for them to work
 <p align="center">
 	<a href="https://github.com/ParadiseSS13/Paradise/actions?query=workflow%3ACI"><img src="https://github.com/ParadiseSS13/Paradise/workflows/CI/badge.svg" alt="CI"></a>
 	<a href="https://github.com/ParadiseSS13/Paradise/actions?query=workflow%3A%22Render+Nanomaps%22"><img src="https://github.com/ParadiseSS13/Paradise/workflows/Render%20Nanomaps/badge.svg" alt="Render Nanomaps"></a>
 	<a href="http://isitmaintained.com/project/paradisess13/paradise"><img src="http://isitmaintained.com/badge/resolution/paradisess13/paradise.svg" alt="Average time to resolve an issue"></a>
 	<a href="http://isitmaintained.com/project/paradisess13/paradise"><img src="http://isitmaintained.com/badge/open/paradisess13/paradise.svg" alt="Percentage of issues still open"></a>
 </p>
-
+-->
 
 <p align="center">
-	<a href="https://xkcd.com/371/"><img src=".github/assets/compiles-sometimes.svg" alt="Compiles sometimes"></a>
-	<a href="https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a/"><img src=".github/assets/made-in-byond.gif" alt="Made in BYOND"></a>
-	<a href="https://xkcd.com/1811/"><img src=".github/assets/made-with-crayons.svg" alt="Made with crayons"></a>
+ <a href="https://xkcd.com/371/"><img src=".github/assets/compiles-sometimes.svg" alt="Compiles sometimes"></a>
+ <a href="https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a/"><img src=".github/assets/made-in-byond.gif" alt="Made in BYOND"></a>
+ <a href="https://xkcd.com/1811/"><img src=".github/assets/made-with-crayons.svg" alt="Made with crayons"></a>
 </p>
 
-
-
-
 <p align="center">
-	<a href="https://discord.gg/paradisess13">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset=".github/assets/discord-light.png">
-			<source media="(prefers-color-scheme: light)" srcset=".github/assets/discord-dark.png">
-			<img width="15%" alt="Discord" hspace="3%" src=".github/assets/discord-dark.png">
-		</picture>
-	</a>
+ <a href="https://discord.gg/B3kwbvyvmH">
+  <picture>
+   <source media="(prefers-color-scheme: dark)" srcset=".github/assets/discord-light.png">
+   <source media="(prefers-color-scheme: light)" srcset=".github/assets/discord-dark.png">
+   <img width="15%" alt="Discord" hspace="3%" src=".github/assets/discord-dark.png">
+  </picture>
+ </a>
+ <!--
 	<a href="https://devdocs.paradisestation.org">
 		<picture>
 			<source media="(prefers-color-scheme: dark)" srcset=".github/assets/book-light.png">
@@ -48,15 +47,12 @@
 			<img width="15%" alt="Game Wiki" hspace="3%" src=".github/assets/wiki-dark.png">
 		</picture>
 	</a>
+	-->
 </p>
 
+This is the codebase for Aquastation's fork of [Paradise Station's codebase](https://github.com/ParadiseSS13/Paradise), [a fork of Baystation, which is a fork of /tg/station, which in turn is a fork of Goonstation, which, ultimately, is a fork of the original Space Station 13](https://raw.githubusercontent.com/spacestation13/SS13-Codebases/master/tree.png).
 
-
-
-> [!TIP]
-> Want to contribute for the first time but unsure where to start?<br>
-> Join our Discord and check out the [#coding_chat](https://discord.com/channels/145533722026967040/145700319819464704) channel for helpful links and advice!<br>
-> Alternatively, have a look at our community maintained [Getting Started Guide](https://devdocs.paradisestation.org/contributing/getting_started/)
+Space Station 13 is a paranoia-laden, round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, or, in this case, a submarine, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. Have fun, and survive!
 
 # Useful Documents and Links
 
@@ -64,31 +60,21 @@
 
 This reference site by the creators of BYOND details information on the DM language, the syntax used, functionality of native procs, and a lot more. This is always useful to have on hand when contributing.
 
-- ### [Autodocumentation Guide](https://devdocs.paradisestation.org/references/autodoc/)
+- ### [Paradise Station's Autodocumentation Guide](https://devdocs.paradisestation.org/references/autodoc/)
 
 This guide shows you how to leave code comments that comply with "autodocumentation", a system designed to make everyone's lives easier when reading or reviewing code!
 
-- ### [Code of Conduct](https://devdocs.paradisestation.org/code_of_conduct/)
+- ### [Code of Conduct](CODE_OF_CONDUCT.md)
 
 All contributors are expected to read our Code of Conduct before they take part in our community.
 
-- ### [Contribution Guide](https://devdocs.paradisestation.org/contributing/)
+- ### [Paradise Station Community Maintained Guide to Contributing](https://devdocs.paradisestation.org/contributing/getting_started/)
 
-Not sure how to take part and contribute? This guide gives an overview of how to make comments, pull requests, and open issues.
-
-This guide also sets out our code standards that we expect all submitted code to adhere to.
-
-- ### [Community Maintained Guide to Contributing](https://devdocs.paradisestation.org/contributing/getting_started/)
-
-This community maintained guide covers how to set yourself up for success when attempting to contribute to Paracode.
+This community maintained guide covers how to set yourself up for success when attempting to contribute to Paradise Station's codebase and, by extension, this one.
 
 > [!IMPORTANT]
-> Paradise does not provide precompiled binaries, requiring you to build from source to host a local server.<br>
-> Building Paradise is quick and simple, all you need to install is [BYOND](https://www.byond.com/download/).<br>
-
-- ### [Paradise Station Development Team Structure](https://www.paradisestation.org/dev/policy/)
-
-A detailed policy document that governs how the Paradise Station Development Team functions, from the various roles that help keep things running to the process each PR goes through depending on the content.
+> Aquastation does not provide precompiled binaries, requiring you to build from source to host a local server.<br>
+> Building Aquastation is quick and simple, all you need to install is [BYOND](https://www.byond.com/download/).<br>
 
 - ### [TGUI Tutorial](tgui/docs/tutorial-and-examples.md)
 
@@ -98,19 +84,11 @@ TGUI is very different to most other BYOND user interfaces as it is written enti
 
 - ### [Mapping Guide](https://hackmd.io/@tgstation/SyVma0dS5#san7890s-A-Z-Guide-to-Mapping)
 
-Mapping for Paradise station can be daunting to new contributors. Here's a comprehensive quick-start put together by a community member that takes you from A-Z.
+Mapping for Aquastation can be daunting to new contributors. Here's a comprehensive quick-start put together by a community member that takes you from A-Z.
 
 ---
-
 
 # LICENSES
-
-> [!CAUTION]
-> If you wish to use our code in a closed source manner (i.e. not make it available to the public and/or those who connect to services you offer using this code) you must **only** use code prior to commit [1af3ddef2af85937251e24384c2173c4b6c3222b on 2015/01/05 22:04 GMT](https://github.com/ParadiseSS13/Paradise/commit/1af3ddef2af85937251e24384c2173c4b6c3222b), which is licenced under GPLv3.
-
-### Click each banner for further information
-
----
 
 <details>
 <summary><a href="#"><img src="https://img.shields.io/badge/licence-AGPL_3-red?style=for-the-badge" alt="AGPLv3 license"></a></summary>
@@ -152,4 +130,3 @@ Mapping for Paradise station can be daunting to new contributors. Here's a compr
 
 >All other non-code assets, including icons and sound files, are licensed under the [Creative Commons 3.0 BY-SA license](https://creativecommons.org/licenses/by-sa/3.0/), unless otherwise specified within the folder or file.
 </details>
-
