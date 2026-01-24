@@ -186,7 +186,10 @@ sql_address = "127.0.0.1"
 # SQL server port
 sql_port = 3306
 # SQL server database name
-sql_database = "paradise_gamedb"
+# AQUASTATION EDIT START
+# sql_database = "paradise_gamedb" - AQUASTATION EDIT ORIGINAL
+sql_database = "aqua_gamedb"
+# AQUASTATION EDIT END
 # SQL server username
 sql_username = "root"
 # SQL server password
