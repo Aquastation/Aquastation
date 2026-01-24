@@ -117,7 +117,7 @@ Cloning the Paradise repository only has to be done once.
 
 [repository]: https://github.com/ParadiseSS13/Paradise
 
-2. Launch Visual Studio Code. Select the Source Control panel on the sidebar,
+1. Launch Visual Studio Code. Select the Source Control panel on the sidebar,
    and click _Clone Repository_.
 
    ![](./images/vsc_clone_repository.png)
@@ -125,7 +125,7 @@ Cloning the Paradise repository only has to be done once.
    If that’s not there, you can press `Ctrl`+`Shift`+`P` to open the command
    palette, then type `Git: Clone` and then press `Enter`.
 
-3. Paste the URL of the repository you created in the last step. It should look
+2. Paste the URL of the repository you created in the last step. It should look
    like this: `https://github.com/YOURNAME/Paradise`. Then, select a folder to
    keep your local repository. The process of downloading might take a while.
    Once it’s downloaded, open the folder in Visual Studio Code.
@@ -185,7 +185,7 @@ the output of blackbox entries.
    password you set up during the installation.
 
 4. Select the database you just created and then select _File -> Load SQL File_,
-   and open the `paradise_schema.sql` file found in the `SQL/` directory of the
+   and open the `aqua_schema.sql` file found in the `SQL/` directory of the
    game.
 
 5. Press the blue "play" icon in the topic bar of icons. If the schema imported
@@ -368,13 +368,13 @@ wrong when a runtime error happens. If you want to avoid the debugger press
 If `F5` does not automatically start a local server, you might have installed
 BYOND on a custom path and VSC did not find it. In this case, try the following:
 
-1.  Press `Ctrl` + `,` to open VSC settings.
-2.  Type "DreamMaker", select "DreamMaker language client
+1. Press `Ctrl` + `,` to open VSC settings.
+2. Type "DreamMaker", select "DreamMaker language client
     configuration".
-3.  Under "DreamMaker: Byond Path", add your path to BYOND (for
+3. Under "DreamMaker: Byond Path", add your path to BYOND (for
     example, `D:\Program Files (x86)\BYOND`).
-4.  Press OK and close the tab.
-5.  Press `F5` to run the server.
+4. Press OK and close the tab.
+5. Press `F5` to run the server.
 
 If that does not work, you can compile it into a dmb file and run it in
 Dream Daemon. To do so, select the dmb file, set security to Trusted and

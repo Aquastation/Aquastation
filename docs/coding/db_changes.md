@@ -39,7 +39,7 @@ a data change is just changing the contents inside a table.
 
 So, you want to add a new table. In short, you need to do the following:
 
-1. Update the `SQL/paradise_schema.sql` file to ensure the table exists in
+1. Update the `SQL/aqua_schema.sql` file to ensure the table exists in
   fresh schemas.
 
 2. Create a `SQL/updates/x-y.sql` file. If we are going from DB version 34 to
@@ -64,11 +64,11 @@ ALTER TABLE `player` ADD COLUMN `toggles_3` INT NULL DEFAULT NULL AFTER `toggles
 ```
 
 Note - the default values in schema updates may differ from what is in the
-`SQL/paradise_schema.sql` file, as existing data may need migrating
+`SQL/aqua_schema.sql` file, as existing data may need migrating
 (more later). Some changes, such as `SQL/updates/57-58.sql` add temporary
 columns and/or use a different default to allow for data backfilling. This is
 fine, so long as the final state of the column matches with the stock schema
-(`SQL/paradise_schema.sql`).
+(`SQL/aqua_schema.sql`).
 
 ### But my PR needs more complex data operations than a SQL script can provide?
 
@@ -86,9 +86,9 @@ These files have some rules, most notably:
 - SQL credentials should be supplied on the command line as arguments in the
   following format:
 
-    - `python 38-39.py host.ip.goes.here user password database`
+  - `python 38-39.py host.ip.goes.here user password database`
 
-    - The only dependency outside of the Python core library should be
+  - The only dependency outside of the Python core library should be
       `mysql.connector`. No others please.
 
 Your script can then do whatever it needs to the database. Logging for progress

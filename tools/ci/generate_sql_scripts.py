@@ -80,7 +80,7 @@ for file in orderedSqlFiles:
         scriptLines.append("mysql -u root -proot < tools/ci/sql_tmp/" + str(file) + "\n")
 
 scriptLines.append("mysql -u root -proot -e 'DROP DATABASE paradise_gamedb;'\n")
-scriptLines.append("mysql -u root -proot < SQL/paradise_schema.sql\n")
+scriptLines.append("mysql -u root -proot < SQL/aqua_schema.sql\n")
 
 outputScript = open("tools/ci/validate_sql.sh", "w+")
 outputScript.writelines(scriptLines)
