@@ -186,7 +186,7 @@ sql_address = "127.0.0.1"
 # SQL server port
 sql_port = 3306
 # SQL server database name
-sql_database = "paradise_gamedb"
+sql_database = "aqua_gamedb"
 # SQL server username
 sql_username = "root"
 # SQL server password
@@ -801,7 +801,7 @@ topic_ip_ratelimit_bypass = ["127.0.0.1"]
 is_production = false
 # Server instance ID. This is used for tagging the server in the database
 # You do NOT want to change this once you are running in production
-instance_id = "paradise_main"
+instance_id = "aqua_main"
 # Enable the below setting if you plan to run multiple instances of the server
 # Enabling this if you dont run multiple instances wont cause problems, but will add a **TINY** amount more lag at times
 enable_multi_instance_support = false
