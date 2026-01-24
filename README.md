@@ -58,6 +58,10 @@ Space Station 13 is a paranoia-laden, round-based roleplaying game set against t
 
 All contributors are expected to read our Code of Conduct before they take part in our community.
 
+## [Aquastation's Modularization Protocol](aqua/README.md)
+
+The main guide on how to modularize any Aquastation-specific edits to the code, allowing it to be (somewhat) separate from the upstream.
+
 ## [Dream Maker (DM) Guide](https://secure.byond.com/docs/guide/)
 
 The official guide by the creators of BYOND on how to get started with the Dream Maker language. While it was written with the Dream Maker IDE in mind and for version 2.0 of the engine, it still covers all the important details on how to use the DM language.
