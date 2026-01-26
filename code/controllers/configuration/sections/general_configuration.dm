@@ -1,7 +1,10 @@
 /// Config holder for all general/misc things
 /datum/configuration_section/general_configuration
 	/// Server name for the BYOND hub
-	var/server_name = "Paradise Station"
+	//AQUASTATION EDIT START
+	// var/server_name = "Paradise Station" - AQUASTATION EDIT ORIGINAL
+	var/server_name = "Aquastation"
+	// AQUASTATION EDIT END
 	/// Tagline for the hub entry
 	var/server_tag_line = "The perfect mix of RP & action"
 	/// Server features in a newline
