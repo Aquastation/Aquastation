@@ -1,6 +1,6 @@
 # Einstein Engines
 
-<p align="center"><img src="https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Textures/Logo/splashlogo.png" width="512px" /></p>
+<p style="text-align: center"><img src="https://raw.githubusercontent.com/Aquastation/Aquastation/master/Resources/Textures/Logo/splashlogo.png" width="512px" alt="Aquastation logo"/></p>
 
 ---
 
@@ -23,7 +23,7 @@ We however would like to invite anyone wishing to create a server to make a fork
 
 ## Links
 
-[Website](https://simplestation.org) | [Discord](https://discord.gg/X4QEXxUrsJ) | [Steam(SSMV Launcher)](https://store.steampowered.com/app/2585480/Space_Station_Multiverse/) | [Steam(WizDen Launcher)](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone](https://spacestationmultiverse.com/downloads/)
+[Website](https://simplestation.org) | [Discord](https://discord.gg/X4QEXxUrsJ) | [Steam (SSMV Launcher)](https://store.steampowered.com/app/2585480/Space_Station_Multiverse/) | [Steam (WizDen Launcher)](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone](https://spacestationmultiverse.com/downloads/)
 
 ## Contributing
 
@@ -62,7 +62,7 @@ We provide some scripts shown below to make the job easier.
 
 ### MacOS
 
-> I don't know anybody using MacOS to test this, but it's probably roughly the same steps as Linux
+> I don't know anybody using macOS to test this, but it's probably roughly the same steps as Linux
 
 ## License
 
