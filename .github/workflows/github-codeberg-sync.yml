@@ -20,5 +20,5 @@ jobs:
         uses: spyoungtech/mirror-action@master
         with:
           REMOTE: "https://codeberg.org/Aquastation/Aquastation.git"
-          GIT_USERNAME: "Aquastation"
+          GIT_USERNAME: "AquastationBot"
           GIT_PASSWORD: ${{ secrets._CODEBERG_TOKEN }}
