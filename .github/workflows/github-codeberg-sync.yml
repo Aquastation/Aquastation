@@ -21,4 +21,4 @@ jobs:
         with:
           REMOTE: "https://codeberg.org/Aquastation/Aquastation.git"
           GIT_USERNAME: "GitHub"
-          GIT_PASSWORD: ${{ secrets._FORGEJO_TOKEN }}
+          GIT_PASSWORD: ${{ secrets._CODEBERG_TOKEN }}
