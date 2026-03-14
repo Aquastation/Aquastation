@@ -23,8 +23,7 @@ We however would like to invite anyone wishing to create a server to make a fork
 
 ## Links
 
-<!-- [Website](https://simplestation.org) | [Discord](https://discord.gg/X4QEXxUrsJ) | --> 
-[Steam (SSMV Launcher)](https://store.steampowered.com/app/2585480/Space_Station_Multiverse/) | [Steam (SS:B Launcher)](https://store.steampowered.com/app/3731580/Space_Station_Beyond/) | [Codeberg](https://codeberg.org/Aquastation/Aquastation) | [GitHub](https://github.com/Aquastation/Aquastation)
+[Discord](https://discord.gg/B3kwbvyvmH) | [Steam (SSMV Launcher)](https://store.steampowered.com/app/2585480/Space_Station_Multiverse/) | [Steam (SS:B Launcher)](https://store.steampowered.com/app/3731580/Space_Station_Beyond/) | [Codeberg](https://codeberg.org/Aquastation/Aquastation) | [GitHub](https://github.com/Aquastation/Aquastation)
 
 ## Contributing
 
