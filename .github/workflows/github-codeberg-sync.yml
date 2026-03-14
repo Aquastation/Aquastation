@@ -1,0 +1,24 @@
+# Sync repo to the Codeberg mirror
+name: Repo sync (GitHub -> Codeberg)
+on:
+  push:
+    branches:
+      - '**'
+  workflow_dispatch: # Manual dispatch
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  sync-repo-to-forgejo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: "Sync repo"
+        uses: spyoungtech/mirror-action@master
+        with:
+          REMOTE: "https://codeberg.org/Aquastation/Aquastation.git"
+          GIT_USERNAME: "GitHub"
+          GIT_PASSWORD: ${{ secrets._FORGEJO_TOKEN }}
