@@ -9,7 +9,7 @@ on:
     - cron: "*/10 * * * *"
 
 jobs:
-  sync-repo-to-forgejo:
+  sync-repo-to-codeberg:
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout"
@@ -20,5 +20,5 @@ jobs:
         uses: spyoungtech/mirror-action@master
         with:
           REMOTE: "https://codeberg.org/Aquastation/Aquastation.git"
-          GIT_USERNAME: "GitHub"
+          GIT_USERNAME: "Aquastation"
           GIT_PASSWORD: ${{ secrets._CODEBERG_TOKEN }}
